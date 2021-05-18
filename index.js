@@ -8,6 +8,17 @@ const client = new Discord.Client();
 
 const PREFIX = "-";
 
+const fs = require('fs');
+
+client.commands = new Discord.Collection();
+
+const commandFiles = fs.readdirSync('./commands/').filter(file => endsWith('.js'));
+for(const file of commandFiles) {
+    const command = require(`./commands/${file}`)
+
+    client.commands.set(command.name, command);
+}
+
 const VERSION = ('0.0.1');
 
 client.login(TOKEN);
@@ -17,12 +28,14 @@ client.once('ready', () => {
 });
 
 client.on('message', message =>{
-    if(!message.content.startsWith(prefix) || message.author.bot) return;
+    if(!message.content.startsWith(PREFIX) || message.author.bot) return;
 
-    const args = message.content.slice(prefix.length).split(/ +/);
+    const args = message.content.slice(PREFIX.length).split(/ +/);
     const command = args.shift().toLowerCase();
-//lol command structure oversight
+    
     if(command === 'ping'){
-
-    }
+        client.commands.get('ping')
+    } else if (command == 'lol'){
+        client.commands.get('lol')
+    };
 });
