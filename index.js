@@ -12,14 +12,14 @@ const fs = require('fs');
 
 client.commands = new Discord.Collection();
 
-const commandFiles = fs.readdirSync('./commands/').filter(file => endsWith('.js'));
-for(const file of commandFiles) {
-    const command = require(`./commands/${file}`)
-
+const commandFiles = fs.readdirSync('./commands/').filter(file => file.endsWith('.js'));
+for(const file of commandFiles){
+    const command = require(`./commands/${file}`);
+ 
     client.commands.set(command.name, command);
 }
 
-const VERSION = ('0.0.1');
+const VERSION = ('0.0.3B');
 
 client.login(TOKEN);
 
@@ -34,8 +34,8 @@ client.on('message', message =>{
     const command = args.shift().toLowerCase();
     
     if(command === 'ping'){
-        client.commands.get('ping')
+        client.commands.get('ping').execute(message, args);
     } else if (command == 'lol'){
-        client.commands.get('lol')
-    };
+        client.commands.get('lol').execute(message, args);
+    }
 });
