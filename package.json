@@ -1,0 +1,14 @@
+{
+  "name": "teabot",
+  "version": "1.0.0",
+  "description": "Random use discord bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Siverty",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
