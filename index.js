@@ -1,4 +1,4 @@
-const token = ('ODA2NjgzNTMwMDExNjA3MDcw.YBtAlQ.QxoPpR3gxcSOZQ8VO_KlYfbZuXQ')
+const token = ('')
 
 const Discord = require('discord.js');
 
