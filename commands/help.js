@@ -9,7 +9,7 @@ module.exports = {
         .setURL('https://tinyurl.com/getfooledyoufool')
         .setDescription('this is an embed for general help using this bot')
         .addFields(
-            {name: 'help', value: 'Clears messages'},
+            {name: 'help', value: 'You are currently looking at it'},
             {name: 'clear', value: 'Clears messages'},
             {name: 'mute', value: 'Mutes a server member for a determined amount of time'},
             {name: 'play', value: 'Use this command to play some of your favourite music, you can use just the title or a link'},
