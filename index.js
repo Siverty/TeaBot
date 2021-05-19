@@ -24,8 +24,13 @@ const VERSION = ('0.0.5');
 client.login(TOKEN);
 
 client.once('ready', () => {
-    console.log("Teabot is online\nVersion", VERSION)
+    console.log("Teabot is online\nVersion", VERSION);
+    client.user.setActivity("out for a tea party", {
+        type: "WATCHING",
+        url: "https://github.com/Siverty/TeaBot"
+    })
 });
+
 
 client.on('message', message => {
     if (!message.content.startsWith(PREFIX) || message.author.bot) return;
