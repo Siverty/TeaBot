@@ -13,13 +13,13 @@ const fs = require('fs');
 client.commands = new Discord.Collection();
 
 const commandFiles = fs.readdirSync('./commands/').filter(file => file.endsWith('.js'));
-for(const file of commandFiles){
+for (const file of commandFiles) {
     const command = require(`./commands/${file}`);
- 
+
     client.commands.set(command.name, command);
 }
 
-const VERSION = ('0.0.4');
+const VERSION = ('0.0.5');
 
 client.login(TOKEN);
 
@@ -27,15 +27,21 @@ client.once('ready', () => {
     console.log("Teabot is online\nVersion", VERSION)
 });
 
-client.on('message', message =>{
-    if(!message.content.startsWith(PREFIX) || message.author.bot) return;
+client.on('message', message => {
+    if (!message.content.startsWith(PREFIX) || message.author.bot) return;
 
     const args = message.content.slice(PREFIX.length).split(/ +/);
     const command = args.shift().toLowerCase();
-    
-    if(command === 'help'){
+
+    if (command === 'help') {
         client.commands.get('help').execute(message, args, Discord);
-    } else if (command == 'clear'){
+    } else if (command == 'clear') {
         client.commands.get('clear').execute(message, args);
+    } else if (command == 'mute') {
+        client.commands.get('mute').execute(message, args);
+    } else if (command == 'mute') {
+        client.commands.get('mute').execute(message, args);
+    } else if (command == 'unmute') {
+        client.commands.get('unmute').execute(message, args);
     }
 });
