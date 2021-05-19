@@ -19,7 +19,7 @@ for(const file of commandFiles){
     client.commands.set(command.name, command);
 }
 
-const VERSION = ('0.0.3B');
+const VERSION = ('0.0.4');
 
 client.login(TOKEN);
 
@@ -33,9 +33,9 @@ client.on('message', message =>{
     const args = message.content.slice(PREFIX.length).split(/ +/);
     const command = args.shift().toLowerCase();
     
-    if(command === 'ping'){
-        client.commands.get('ping').execute(message, args);
-    } else if (command == 'lol'){
-        client.commands.get('lol').execute(message, args);
+    if(command === 'help'){
+        client.commands.get('help').execute(message, args, Discord);
+    } else if (command == 'clear'){
+        client.commands.get('clear').execute(message, args);
     }
 });
