@@ -1,0 +1,1162 @@
+[
+    {
+        "Name": "FMJ",
+        "Caliber": ".366 TKM",
+        "Damage": "98",
+        "Penetration": "23",
+        "Armor_Damage": "0.48",
+        "Fragmentation": "0.25"
+    },
+    {
+        "Name": "EKO",
+        "Caliber": ".366 TKM",
+        "Damage": "73",
+        "Penetration": "30",
+        "Armor_Damage": "0.4",
+        "Fragmentation": "0.2"
+    },
+    {
+        "Name": "Geksa",
+        "Caliber": ".366 TKM",
+        "Damage": "110",
+        "Penetration": "14",
+        "Armor_Damage": "0.38",
+        "Fragmentation": "0.45"
+    },
+    {
+        "Name": "366 AP",
+        "Caliber": ".366 TKM",
+        "Damage": "90",
+        "Penetration": "42",
+        "Armor_Damage": "0.6",
+        "Fragmentation": "0.01"
+    },
+    {
+        "Name": ".45 FMJ",
+        "Caliber": "11.43x23mm ACP",
+        "Damage": "69",
+        "Penetration": "23",
+        "Armor_Damage": "0.36",
+        "Fragmentation": "0.01"
+    },
+    {
+        "Name": ".45 RIP",
+        "Caliber": "11.43x23mm ACP",
+        "Damage": "127",
+        "Penetration": "3",
+        "Armor_Damage": "0.12",
+        "Fragmentation": "1"
+    },
+    {
+        "Name": ".45 AP",
+        "Caliber": "11.43x23mm ACP",
+        "Damage": "70",
+        "Penetration": "36",
+        "Armor_Damage": "0.43",
+        "Fragmentation": "0.01"
+    },
+    {
+        "Name": ".45 LM",
+        "Caliber": "11.43x23mm ACP",
+        "Damage": "74",
+        "Penetration": "19",
+        "Armor_Damage": "0.37",
+        "Fragmentation": "0.01"
+    },
+    {
+        "Name": ".45 HS",
+        "Caliber": "11.43x23mm ACP",
+        "Damage": "95",
+        "Penetration": "13",
+        "Armor_Damage": "0.3",
+        "Fragmentation": "0.5"
+    },
+    {
+        "Name": "BZT-44M",
+        "Caliber": "12.7x108mm",
+        "Damage": "199",
+        "Penetration": "80",
+        "Armor_Damage": "0.95",
+        "Fragmentation": "0.17"
+    },
+    {
+        "Name": "B-32",
+        "Caliber": "12.7x108mm",
+        "Damage": "182",
+        "Penetration": "88",
+        "Armor_Damage": "0.88",
+        "Fragmentation": "0.17"
+    },
+    {
+        "Name": "PS12A",
+        "Caliber": "12.7x55mm STs-130",
+        "Damage": "165",
+        "Penetration": "10",
+        "Armor_Damage": "0.22",
+        "Fragmentation": "0.7"
+    },
+    {
+        "Name": "PS12",
+        "Caliber": "12.7x55mm STs-130",
+        "Damage": "115",
+        "Penetration": "28",
+        "Armor_Damage": "0.6",
+        "Fragmentation": "0.3"
+    },
+    {
+        "Name": "PS12B",
+        "Caliber": "12.7x55mm STs-130",
+        "Damage": "102",
+        "Penetration": "46",
+        "Armor_Damage": "0.57",
+        "Fragmentation": "0.3"
+    },
+    {
+        "Name": "7mm 12c",
+        "Caliber": "12ga",
+        "Damage": "39 (8x)",
+        "Penetration": "3",
+        "Armor_Damage": "0.26",
+        "Fragmentation": "0"
+    },
+    {
+        "Name": "12x70 RIP",
+        "Caliber": "12ga",
+        "Damage": "265",
+        "Penetration": "2",
+        "Armor_Damage": "0.11",
+        "Fragmentation": "1"
+    },
+    {
+        "Name": "12x70 Slug",
+        "Caliber": "12ga",
+        "Damage": "167",
+        "Penetration": "15",
+        "Armor_Damage": "0.55",
+        "Fragmentation": "0.2"
+    },
+    {
+        "Name": "CSP",
+        "Caliber": "12ga",
+        "Damage": "206",
+        "Penetration": "14",
+        "Armor_Damage": "0.46",
+        "Fragmentation": "0.38"
+    },
+    {
+        "Name": "Flech.",
+        "Caliber": "12ga",
+        "Damage": "25 (8x)",
+        "Penetration": "31",
+        "Armor_Damage": "0.26",
+        "Fragmentation": "0"
+    },
+    {
+        "Name": ".50 12c",
+        "Caliber": "12ga",
+        "Damage": "197",
+        "Penetration": "26",
+        "Armor_Damage": "0.57",
+        "Fragmentation": "0.05"
+    },
+    {
+        "Name": "8.5 12c",
+        "Caliber": "12ga",
+        "Damage": "50 (8x)",
+        "Penetration": "2",
+        "Armor_Damage": "0.26",
+        "Fragmentation": "0"
+    },
+    {
+        "Name": "P-6u 12c",
+        "Caliber": "12ga",
+        "Damage": "150",
+        "Penetration": "20",
+        "Armor_Damage": "0.5",
+        "Fragmentation": "0.15"
+    },
+    {
+        "Name": "AP-20",
+        "Caliber": "12ga",
+        "Damage": "164",
+        "Penetration": "37",
+        "Armor_Damage": "0.65",
+        "Fragmentation": "0.03"
+    },
+    {
+        "Name": "2-Sabot",
+        "Caliber": "12ga",
+        "Damage": "85 (2x)",
+        "Penetration": "17",
+        "Armor_Damage": "0.65",
+        "Fragmentation": "0.1"
+    },
+    {
+        "Name": "6.5 12c",
+        "Caliber": "12ga",
+        "Damage": "35 (9x)",
+        "Penetration": "3",
+        "Armor_Damage": "0.26",
+        "Fragmentation": "0"
+    },
+    {
+        "Name": "SF",
+        "Caliber": "12ga",
+        "Damage": "220",
+        "Penetration": "5",
+        "Armor_Damage": "0.12",
+        "Fragmentation": "0.39"
+    },
+    {
+        "Name": "Grizzly",
+        "Caliber": "12ga",
+        "Damage": "190",
+        "Penetration": "12",
+        "Armor_Damage": "0.48",
+        "Fragmentation": "0.12"
+    },
+    {
+        "Name": "P-3 12c",
+        "Caliber": "12ga",
+        "Damage": "140",
+        "Penetration": "17",
+        "Armor_Damage": "0.4",
+        "Fragmentation": "0.2"
+    },
+    {
+        "Name": "FTX",
+        "Caliber": "12ga",
+        "Damage": "183",
+        "Penetration": "20",
+        "Armor_Damage": "0.5",
+        "Fragmentation": "0.1"
+    },
+    {
+        "Name": "5.25 12c",
+        "Caliber": "12ga",
+        "Damage": "37 (8x)",
+        "Penetration": "1",
+        "Armor_Damage": "0.15",
+        "Fragmentation": "0"
+    },
+    {
+        "Name": "7.5 20c",
+        "Caliber": "20ga",
+        "Damage": "25 (8x)",
+        "Penetration": "3",
+        "Armor_Damage": "0.14",
+        "Fragmentation": "0"
+    },
+    {
+        "Name": "P-6u 20c",
+        "Caliber": "20ga",
+        "Damage": "135",
+        "Penetration": "17",
+        "Armor_Damage": "0.4",
+        "Fragmentation": "0.15"
+    },
+    {
+        "Name": "6.2 20k",
+        "Caliber": "20ga",
+        "Damage": "22 (8x)",
+        "Penetration": "2",
+        "Armor_Damage": "0.13",
+        "Fragmentation": "0"
+    },
+    {
+        "Name": "P-3 20c",
+        "Caliber": "20ga",
+        "Damage": "120",
+        "Penetration": "14",
+        "Armor_Damage": "0.35",
+        "Fragmentation": "0.2"
+    },
+    {
+        "Name": "Dev.",
+        "Caliber": "20ga",
+        "Damage": "198",
+        "Penetration": "5",
+        "Armor_Damage": "0.13",
+        "Fragmentation": "1"
+    },
+    {
+        "Name": "5.6 20c",
+        "Caliber": "20ga",
+        "Damage": "26 (8x)",
+        "Penetration": "1",
+        "Armor_Damage": "0.12",
+        "Fragmentation": "0"
+    },
+    {
+        "Name": "20/70 Slug",
+        "Caliber": "20ga",
+        "Damage": "154",
+        "Penetration": "16",
+        "Armor_Damage": "0.42",
+        "Fragmentation": "0.1"
+    },
+    {
+        "Name": "7.3 20c",
+        "Caliber": "20ga",
+        "Damage": "23 (9x)",
+        "Penetration": "3",
+        "Armor_Damage": "0.13",
+        "Fragmentation": "0"
+    },
+    {
+        "Name": "Star",
+        "Caliber": "23x75mmR",
+        "Damage": "0",
+        "Penetration": "0",
+        "Armor_Damage": "0",
+        "Fragmentation": "0.3"
+    },
+    {
+        "Name": "Barr.",
+        "Caliber": "23x75mmR",
+        "Damage": "192",
+        "Penetration": "39",
+        "Armor_Damage": "0.75",
+        "Fragmentation": "0.2"
+    },
+    {
+        "Name": "Shr.25",
+        "Caliber": "23x75mmR",
+        "Damage": "78 (8x)",
+        "Penetration": "10",
+        "Armor_Damage": "0.2",
+        "Fragmentation": "0"
+    },
+    {
+        "Name": "Shrap.10",
+        "Caliber": "23x75mmR",
+        "Damage": "87 (8x)",
+        "Penetration": "11",
+        "Armor_Damage": "0.2",
+        "Fragmentation": "0"
+    },
+    {
+        "Name": "VOG-30",
+        "Caliber": "30x29mm",
+        "Damage": "199",
+        "Penetration": "1",
+        "Armor_Damage": "0.95",
+        "Fragmentation": "0"
+    },
+    {
+        "Name": "M406",
+        "Caliber": "40x46mm",
+        "Damage": "199",
+        "Penetration": "1",
+        "Armor_Damage": "0.95",
+        "Fragmentation": "0"
+    },
+    {
+        "Name": "M433",
+        "Caliber": "40x46mm",
+        "Damage": "199",
+        "Penetration": "1",
+        "Armor_Damage": "0.95",
+        "Fragmentation": "0"
+    },
+    {
+        "Name": "M441",
+        "Caliber": "40x46mm",
+        "Damage": "199",
+        "Penetration": "1",
+        "Armor_Damage": "0.95",
+        "Fragmentation": "0"
+    },
+    {
+        "Name": "M576",
+        "Caliber": "40x46mm",
+        "Damage": "160 (15x)",
+        "Penetration": "5",
+        "Armor_Damage": "0.95",
+        "Fragmentation": "0"
+    },
+    {
+        "Name": "M381",
+        "Caliber": "40x46mm",
+        "Damage": "199",
+        "Penetration": "1",
+        "Armor_Damage": "0.95",
+        "Fragmentation": "0"
+    },
+    {
+        "Name": "M386",
+        "Caliber": "40x46mm",
+        "Damage": "199",
+        "Penetration": "1",
+        "Armor_Damage": "0.95",
+        "Fragmentation": "0"
+    },
+    {
+        "Name": "HP",
+        "Caliber": "5.45x39mm",
+        "Damage": "74",
+        "Penetration": "11",
+        "Armor_Damage": "0.2",
+        "Fragmentation": "0.35"
+    },
+    {
+        "Name": "BP",
+        "Caliber": "5.45x39mm",
+        "Damage": "48",
+        "Penetration": "32",
+        "Armor_Damage": "0.41",
+        "Fragmentation": "0.16"
+    },
+    {
+        "Name": "SP",
+        "Caliber": "5.45x39mm",
+        "Damage": "68",
+        "Penetration": "11",
+        "Armor_Damage": "0.34",
+        "Fragmentation": "0.45"
+    },
+    {
+        "Name": "PS",
+        "Caliber": "5.45x39mm",
+        "Damage": "50",
+        "Penetration": "25",
+        "Armor_Damage": "0.35",
+        "Fragmentation": "0.4"
+    },
+    {
+        "Name": "7N39",
+        "Caliber": "5.45x39mm",
+        "Damage": "37",
+        "Penetration": "62",
+        "Armor_Damage": "0.6",
+        "Fragmentation": "0.02"
+    },
+    {
+        "Name": "PRS",
+        "Caliber": "5.45x39mm",
+        "Damage": "60",
+        "Penetration": "14",
+        "Armor_Damage": "0.28",
+        "Fragmentation": "0.3"
+    },
+    {
+        "Name": "US",
+        "Caliber": "5.45x39mm",
+        "Damage": "65",
+        "Penetration": "15",
+        "Armor_Damage": "0.34",
+        "Fragmentation": "0.1"
+    },
+    {
+        "Name": "T",
+        "Caliber": "5.45x39mm",
+        "Damage": "57",
+        "Penetration": "20",
+        "Armor_Damage": "0.38",
+        "Fragmentation": "0.16"
+    },
+    {
+        "Name": "BT",
+        "Caliber": "5.45x39mm",
+        "Damage": "44",
+        "Penetration": "37",
+        "Armor_Damage": "0.49",
+        "Fragmentation": "0.164"
+    },
+    {
+        "Name": "FMJ",
+        "Caliber": "5.45x39mm",
+        "Damage": "54",
+        "Penetration": "20",
+        "Armor_Damage": "0.3",
+        "Fragmentation": "0.25"
+    },
+    {
+        "Name": "PP",
+        "Caliber": "5.45x39mm",
+        "Damage": "46",
+        "Penetration": "30",
+        "Armor_Damage": "0.32",
+        "Fragmentation": "0.17"
+    },
+    {
+        "Name": "BS",
+        "Caliber": "5.45x39mm",
+        "Damage": "40",
+        "Penetration": "51",
+        "Armor_Damage": "0.57",
+        "Fragmentation": "0.17"
+    },
+    {
+        "Name": "M995",
+        "Caliber": "5.56x45mm NATO",
+        "Damage": "40",
+        "Penetration": "53",
+        "Armor_Damage": "0.58",
+        "Fragmentation": "0.32"
+    },
+    {
+        "Name": "M856",
+        "Caliber": "5.56x45mm NATO",
+        "Damage": "55",
+        "Penetration": "23",
+        "Armor_Damage": "0.34",
+        "Fragmentation": "0.328"
+    },
+    {
+        "Name": "M855A1",
+        "Caliber": "5.56x45mm NATO",
+        "Damage": "45",
+        "Penetration": "43",
+        "Armor_Damage": "0.52",
+        "Fragmentation": "0.34"
+    },
+    {
+        "Name": "WG",
+        "Caliber": "5.56x45mm NATO",
+        "Damage": "85",
+        "Penetration": "3",
+        "Armor_Damage": "0.14",
+        "Fragmentation": "0.9"
+    },
+    {
+        "Name": "Mk255 Mod0",
+        "Caliber": "5.56x45mm NATO",
+        "Damage": "60",
+        "Penetration": "17",
+        "Armor_Damage": "0.32",
+        "Fragmentation": "0.03"
+    },
+    {
+        "Name": "55 FMJ",
+        "Caliber": "5.56x45mm NATO",
+        "Damage": "52",
+        "Penetration": "24",
+        "Armor_Damage": "0.33",
+        "Fragmentation": "0.5"
+    },
+    {
+        "Name": "55 HP",
+        "Caliber": "5.56x45mm NATO",
+        "Damage": "75",
+        "Penetration": "9",
+        "Armor_Damage": "0.22",
+        "Fragmentation": "0.7"
+    },
+    {
+        "Name": "M856A1",
+        "Caliber": "5.56x45mm NATO",
+        "Damage": "51",
+        "Penetration": "37",
+        "Armor_Damage": "0.52",
+        "Fragmentation": "0.328"
+    },
+    {
+        "Name": "M855",
+        "Caliber": "5.56x45mm NATO",
+        "Damage": "50",
+        "Penetration": "28",
+        "Armor_Damage": "0.37",
+        "Fragmentation": "0.4"
+    },
+    {
+        "Name": "SSA AP",
+        "Caliber": "5.56x45mm NATO",
+        "Damage": "36",
+        "Penetration": "56",
+        "Armor_Damage": "0.64",
+        "Fragmentation": "0.2"
+    },
+    {
+        "Name": "SOST",
+        "Caliber": "5.56x45mm NATO",
+        "Damage": "65",
+        "Penetration": "21",
+        "Armor_Damage": "0.35",
+        "Fragmentation": "0.15"
+    },
+    {
+        "Name": "SS197SR",
+        "Caliber": "5.7x28mm",
+        "Damage": "62",
+        "Penetration": "20",
+        "Armor_Damage": "0.22",
+        "Fragmentation": "0.5"
+    },
+    {
+        "Name": "R37.F",
+        "Caliber": "5.7x28mm",
+        "Damage": "98",
+        "Penetration": "8",
+        "Armor_Damage": "0.07",
+        "Fragmentation": "1"
+    },
+    {
+        "Name": "SB193",
+        "Caliber": "5.7x28mm",
+        "Damage": "54",
+        "Penetration": "35",
+        "Armor_Damage": "0.37",
+        "Fragmentation": "0.2"
+    },
+    {
+        "Name": "R37.X",
+        "Caliber": "5.7x28mm",
+        "Damage": "81",
+        "Penetration": "11",
+        "Armor_Damage": "0.14",
+        "Fragmentation": "0.7"
+    },
+    {
+        "Name": "SS198LF",
+        "Caliber": "5.7x28mm",
+        "Damage": "74",
+        "Penetration": "10",
+        "Armor_Damage": "0.15",
+        "Fragmentation": "0.8"
+    },
+    {
+        "Name": "SS190",
+        "Caliber": "5.7x28mm",
+        "Damage": "49",
+        "Penetration": "37",
+        "Armor_Damage": "0.43",
+        "Fragmentation": "0.2"
+    },
+    {
+        "Name": "L191",
+        "Caliber": "5.7x28mm",
+        "Damage": "58",
+        "Penetration": "33",
+        "Armor_Damage": "0.41",
+        "Fragmentation": "0.2"
+    },
+    {
+        "Name": "Pst gzh",
+        "Caliber": "7.62x25mm Tokarev",
+        "Damage": "50",
+        "Penetration": "25",
+        "Armor_Damage": "0.36",
+        "Fragmentation": "0.2"
+    },
+    {
+        "Name": "LRNPC",
+        "Caliber": "7.62x25mm Tokarev",
+        "Damage": "66",
+        "Penetration": "7",
+        "Armor_Damage": "0.27",
+        "Fragmentation": "0.35"
+    },
+    {
+        "Name": "FMJ43",
+        "Caliber": "7.62x25mm Tokarev",
+        "Damage": "60",
+        "Penetration": "11",
+        "Armor_Damage": "0.29",
+        "Fragmentation": "0.25"
+    },
+    {
+        "Name": "P gl",
+        "Caliber": "7.62x25mm Tokarev",
+        "Damage": "58",
+        "Penetration": "14",
+        "Armor_Damage": "0.32",
+        "Fragmentation": "0.25"
+    },
+    {
+        "Name": "AKBS",
+        "Caliber": "7.62x25mm Tokarev",
+        "Damage": "58",
+        "Penetration": "12",
+        "Armor_Damage": "0.32",
+        "Fragmentation": "0.25"
+    },
+    {
+        "Name": "LRN",
+        "Caliber": "7.62x25mm Tokarev",
+        "Damage": "64",
+        "Penetration": "8",
+        "Armor_Damage": "0.28",
+        "Fragmentation": "0.35"
+    },
+    {
+        "Name": "PT gzh",
+        "Caliber": "7.62x25mm Tokarev",
+        "Damage": "55",
+        "Penetration": "18",
+        "Armor_Damage": "0.34",
+        "Fragmentation": "0.166"
+    },
+    {
+        "Name": "BPZ",
+        "Caliber": "7.62x35mm",
+        "Damage": "60",
+        "Penetration": "28",
+        "Armor_Damage": "0.36",
+        "Fragmentation": "0.3"
+    },
+    {
+        "Name": "AP",
+        "Caliber": "7.62x35mm",
+        "Damage": "55",
+        "Penetration": "44",
+        "Armor_Damage": "0.6",
+        "Fragmentation": "0.1"
+    },
+    {
+        "Name": "T45M",
+        "Caliber": "7.62x39mm",
+        "Damage": "62",
+        "Penetration": "30",
+        "Armor_Damage": "0.46",
+        "Fragmentation": "0.12"
+    },
+    {
+        "Name": "BP",
+        "Caliber": "7.62x39mm",
+        "Damage": "58",
+        "Penetration": "47",
+        "Armor_Damage": "0.63",
+        "Fragmentation": "0.12"
+    },
+    {
+        "Name": "PS",
+        "Caliber": "7.62x39mm",
+        "Damage": "57",
+        "Penetration": "32",
+        "Armor_Damage": "0.52",
+        "Fragmentation": "0.25"
+    },
+    {
+        "Name": "HP",
+        "Caliber": "7.62x39mm",
+        "Damage": "87",
+        "Penetration": "15",
+        "Armor_Damage": "0.35",
+        "Fragmentation": "0.2625"
+    },
+    {
+        "Name": "US",
+        "Caliber": "7.62x39mm",
+        "Damage": "56",
+        "Penetration": "29",
+        "Armor_Damage": "0.42",
+        "Fragmentation": "0.075"
+    },
+    {
+        "Name": "7.62 AP",
+        "Caliber": "7.62x39mm",
+        "Damage": "47",
+        "Penetration": "58",
+        "Armor_Damage": "0.76",
+        "Fragmentation": "0.05"
+    },
+    {
+        "Name": "M61",
+        "Caliber": "7.62x51mm NATO",
+        "Damage": "70",
+        "Penetration": "64",
+        "Armor_Damage": "0.83",
+        "Fragmentation": "0.13"
+    },
+    {
+        "Name": "M62",
+        "Caliber": "7.62x51mm NATO",
+        "Damage": "79",
+        "Penetration": "44",
+        "Armor_Damage": "0.75",
+        "Fragmentation": "0.14"
+    },
+    {
+        "Name": "M80",
+        "Caliber": "7.62x51mm NATO",
+        "Damage": "80",
+        "Penetration": "41",
+        "Armor_Damage": "0.66",
+        "Fragmentation": "0.17"
+    },
+    {
+        "Name": "TPZ SP",
+        "Caliber": "7.62x51mm NATO",
+        "Damage": "60",
+        "Penetration": "36",
+        "Armor_Damage": "0.4",
+        "Fragmentation": "0.2"
+    },
+    {
+        "Name": "BPZ FMJ",
+        "Caliber": "7.62x51mm NATO",
+        "Damage": "88",
+        "Penetration": "31",
+        "Armor_Damage": "0.33",
+        "Fragmentation": "0.25"
+    },
+    {
+        "Name": "Ultra Nosler",
+        "Caliber": "7.62x51mm NATO",
+        "Damage": "107",
+        "Penetration": "15",
+        "Armor_Damage": "0.2",
+        "Fragmentation": "0.7"
+    },
+    {
+        "Name": "M993",
+        "Caliber": "7.62x51mm NATO",
+        "Damage": "67",
+        "Penetration": "70",
+        "Armor_Damage": "0.85",
+        "Fragmentation": "0.13"
+    },
+    {
+        "Name": "7N1",
+        "Caliber": "7.62x54mmR",
+        "Damage": "86",
+        "Penetration": "45",
+        "Armor_Damage": "0.84",
+        "Fragmentation": "0.083"
+    },
+    {
+        "Name": "SNB",
+        "Caliber": "7.62x54mmR",
+        "Damage": "75",
+        "Penetration": "62",
+        "Armor_Damage": "0.87",
+        "Fragmentation": "0.08"
+    },
+    {
+        "Name": "LPS Gzh",
+        "Caliber": "7.62x54mmR",
+        "Damage": "81",
+        "Penetration": "42",
+        "Armor_Damage": "0.78",
+        "Fragmentation": "0.18"
+    },
+    {
+        "Name": "7BT1",
+        "Caliber": "7.62x54mmR",
+        "Damage": "78",
+        "Penetration": "59",
+        "Armor_Damage": "0.87",
+        "Fragmentation": "0.081"
+    },
+    {
+        "Name": "7N37",
+        "Caliber": "7.62x54mmR",
+        "Damage": "72",
+        "Penetration": "70",
+        "Armor_Damage": "0.88",
+        "Fragmentation": "0.083"
+    },
+    {
+        "Name": "T46M",
+        "Caliber": "7.62x54mmR",
+        "Damage": "82",
+        "Penetration": "41",
+        "Armor_Damage": "0.83",
+        "Fragmentation": "0.18"
+    },
+    {
+        "Name": "AP",
+        "Caliber": "8.6x70mm",
+        "Damage": "115",
+        "Penetration": "79",
+        "Armor_Damage": "0.89",
+        "Fragmentation": "0.13"
+    },
+    {
+        "Name": ".338 UPZ",
+        "Caliber": "8.6x70mm",
+        "Damage": "142",
+        "Penetration": "32",
+        "Armor_Damage": "0.7",
+        "Fragmentation": "0.6"
+    },
+    {
+        "Name": "FMJ",
+        "Caliber": "8.6x70mm",
+        "Damage": "122",
+        "Penetration": "47",
+        "Armor_Damage": "0.83",
+        "Fragmentation": "0.2"
+    },
+    {
+        "Name": "TAC-X",
+        "Caliber": "8.6x70mm",
+        "Damage": "196",
+        "Penetration": "18",
+        "Armor_Damage": "0.55",
+        "Fragmentation": "0.5"
+    },
+    {
+        "Name": "9 BZT gzh",
+        "Caliber": "9x18mm Makarov",
+        "Damage": "53",
+        "Penetration": "18",
+        "Armor_Damage": "0.28",
+        "Fragmentation": "0.17"
+    },
+    {
+        "Name": "PMM",
+        "Caliber": "9x18mm Makarov",
+        "Damage": "58",
+        "Penetration": "24",
+        "Armor_Damage": "0.33",
+        "Fragmentation": "0.17"
+    },
+    {
+        "Name": "9 P gzh",
+        "Caliber": "9x18mm Makarov",
+        "Damage": "50",
+        "Penetration": "5",
+        "Armor_Damage": "0.16",
+        "Fragmentation": "0.25"
+    },
+    {
+        "Name": "PBM",
+        "Caliber": "9x18mm Makarov",
+        "Damage": "40",
+        "Penetration": "28",
+        "Armor_Damage": "0.3",
+        "Fragmentation": "0.16"
+    },
+    {
+        "Name": "PSV",
+        "Caliber": "9x18mm Makarov",
+        "Damage": "69",
+        "Penetration": "3",
+        "Armor_Damage": "0.05",
+        "Fragmentation": "0.4"
+    },
+    {
+        "Name": "PRS gs",
+        "Caliber": "9x18mm Makarov",
+        "Damage": "58",
+        "Penetration": "6",
+        "Armor_Damage": "0.16",
+        "Fragmentation": "0.3"
+    },
+    {
+        "Name": "Pst gzh",
+        "Caliber": "9x18mm Makarov",
+        "Damage": "50",
+        "Penetration": "12",
+        "Armor_Damage": "0.26",
+        "Fragmentation": "0.2"
+    },
+    {
+        "Name": "SP7 gzh",
+        "Caliber": "9x18mm Makarov",
+        "Damage": "77",
+        "Penetration": "2",
+        "Armor_Damage": "0.05",
+        "Fragmentation": "0.02"
+    },
+    {
+        "Name": "PPe gzh",
+        "Caliber": "9x18mm Makarov",
+        "Damage": "61",
+        "Penetration": "7",
+        "Armor_Damage": "0.15",
+        "Fragmentation": "0.35"
+    },
+    {
+        "Name": "SP8 gzh",
+        "Caliber": "9x18mm Makarov",
+        "Damage": "67",
+        "Penetration": "1",
+        "Armor_Damage": "0.02",
+        "Fragmentation": "0.6"
+    },
+    {
+        "Name": "RG028 gzh",
+        "Caliber": "9x18mm Makarov",
+        "Damage": "65",
+        "Penetration": "13",
+        "Armor_Damage": "0.26",
+        "Fragmentation": "0.02"
+    },
+    {
+        "Name": "PSO gzh",
+        "Caliber": "9x18mm Makarov",
+        "Damage": "54",
+        "Penetration": "5",
+        "Armor_Damage": "0.13",
+        "Fragmentation": "0.35"
+    },
+    {
+        "Name": "PS gs PPO",
+        "Caliber": "9x18mm Makarov",
+        "Damage": "55",
+        "Penetration": "6",
+        "Armor_Damage": "0.16",
+        "Fragmentation": "0.25"
+    },
+    {
+        "Name": "PPT gzh",
+        "Caliber": "9x18mm Makarov",
+        "Damage": "59",
+        "Penetration": "8",
+        "Armor_Damage": "0.22",
+        "Fragmentation": "0.166"
+    },
+    {
+        "Name": "AP 6.3",
+        "Caliber": "9x19mm Parabellum",
+        "Damage": "52",
+        "Penetration": "30",
+        "Armor_Damage": "0.48",
+        "Fragmentation": "0.05"
+    },
+    {
+        "Name": "RIP",
+        "Caliber": "9x19mm Parabellum",
+        "Damage": "102",
+        "Penetration": "2",
+        "Armor_Damage": "0.11",
+        "Fragmentation": "1"
+    },
+    {
+        "Name": "GT",
+        "Caliber": "9x19mm Parabellum",
+        "Damage": "58",
+        "Penetration": "14",
+        "Armor_Damage": "0.33",
+        "Fragmentation": "0.15"
+    },
+    {
+        "Name": "Pst gzh",
+        "Caliber": "9x19mm Parabellum",
+        "Damage": "54",
+        "Penetration": "20",
+        "Armor_Damage": "0.33",
+        "Fragmentation": "0.15"
+    },
+    {
+        "Name": "Luger CCI",
+        "Caliber": "9x19mm Parabellum",
+        "Damage": "70",
+        "Penetration": "10",
+        "Armor_Damage": "0.38",
+        "Fragmentation": "0.25"
+    },
+    {
+        "Name": "PSO gzh",
+        "Caliber": "9x19mm Parabellum",
+        "Damage": "59",
+        "Penetration": "10",
+        "Armor_Damage": "0.32",
+        "Fragmentation": "0.25"
+    },
+    {
+        "Name": "7N31",
+        "Caliber": "9x19mm Parabellum",
+        "Damage": "52",
+        "Penetration": "39",
+        "Armor_Damage": "0.55",
+        "Fragmentation": "0.05"
+    },
+    {
+        "Name": "QuakeMaker",
+        "Caliber": "9x19mm Parabellum",
+        "Damage": "85",
+        "Penetration": "8",
+        "Armor_Damage": "0.22",
+        "Fragmentation": "0.1"
+    },
+    {
+        "Name": "SP11",
+        "Caliber": "9x21mm Gyurza",
+        "Damage": "65",
+        "Penetration": "18",
+        "Armor_Damage": "0.44",
+        "Fragmentation": "0.3"
+    },
+    {
+        "Name": "SP10",
+        "Caliber": "9x21mm Gyurza",
+        "Damage": "49",
+        "Penetration": "35",
+        "Armor_Damage": "0.46",
+        "Fragmentation": "0.2"
+    },
+    {
+        "Name": "SP12",
+        "Caliber": "9x21mm Gyurza",
+        "Damage": "80",
+        "Penetration": "15",
+        "Armor_Damage": "0.63",
+        "Fragmentation": "0.35"
+    },
+    {
+        "Name": "SP13",
+        "Caliber": "9x21mm Gyurza",
+        "Damage": "63",
+        "Penetration": "39",
+        "Armor_Damage": "0.47",
+        "Fragmentation": "0.2"
+    },
+    {
+        "Name": "SPP",
+        "Caliber": "9x39mm",
+        "Damage": "64",
+        "Penetration": "50",
+        "Armor_Damage": "0.56",
+        "Fragmentation": "0.2"
+    },
+    {
+        "Name": "SP-5",
+        "Caliber": "9x39mm",
+        "Damage": "68",
+        "Penetration": "38",
+        "Armor_Damage": "0.52",
+        "Fragmentation": "0.2"
+    },
+    {
+        "Name": "BP",
+        "Caliber": "9x39mm",
+        "Damage": "60",
+        "Penetration": "55",
+        "Armor_Damage": "0.68",
+        "Fragmentation": "0.1"
+    },
+    {
+        "Name": "SP-6",
+        "Caliber": "9x39mm",
+        "Damage": "58",
+        "Penetration": "46",
+        "Armor_Damage": "0.6",
+        "Fragmentation": "0.1"
+    },
+    {
+        "Name": "FMJ SX",
+        "Caliber": "HK 4.6x30mm",
+        "Damage": "43",
+        "Penetration": "40",
+        "Armor_Damage": "0.41",
+        "Fragmentation": "0.2"
+    },
+    {
+        "Name": "Subsonic SX",
+        "Caliber": "HK 4.6x30mm",
+        "Damage": "45",
+        "Penetration": "36",
+        "Armor_Damage": "0.46",
+        "Fragmentation": "0.2"
+    },
+    {
+        "Name": "AP SX",
+        "Caliber": "HK 4.6x30mm",
+        "Damage": "35",
+        "Penetration": "53",
+        "Armor_Damage": "0.46",
+        "Fragmentation": "0.1"
+    },
+    {
+        "Name": "Action SX",
+        "Caliber": "HK 4.6x30mm",
+        "Damage": "65",
+        "Penetration": "18",
+        "Armor_Damage": "0.39",
+        "Fragmentation": "0.5"
+    }
+]
