@@ -30,7 +30,7 @@ module.exports = {
             } else {
                 message.channel.send('Cant find that member!');
             }
-        }else {
+        } else {
             message.reply("you don't have the permission to use this command")
         }
     }
