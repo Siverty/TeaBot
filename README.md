@@ -1,2 +1,2 @@
 # TeaBot
-funny bot I made
+An open source discord bot.
