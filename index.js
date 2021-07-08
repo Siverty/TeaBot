@@ -30,7 +30,7 @@ for (const file of commandFiles) {
 }
 
 //handy placeholder for the bot version
-const VERSION = ('0.0.7');
+const VERSION = ('0.0.8');
 
 //login for client, defined in the .env file
 client.login(TOKEN);
@@ -61,7 +61,7 @@ client.on('message', message => {
     if (command === 'help') {
         client.commands.get('help').execute(message, args, Discord);
     } else if (command === 't', 'tarkov') {
-        client.commands.get('tarkov').execute(message, args);
+        client.commands.get('tarkov').execute(message, args, Discord);
     } else if (command === 'serverelection') {
         client.commands.get('serverelection').execute(message, args, Discord, client);
     } else if (command === 'clear', 'c') {
