@@ -5,13 +5,17 @@ require('dotenv').config();
 const TOKEN = process.env.TOKEN;
 const TENORKEY = process.env.TENORKEY;
 
-//don't change this
+//don't change this, includes basic requires for the bot to operate
 const Discord = require('discord.js');
 const client = new Discord.Client({ partials: ["MESSAGE", "CHANNEL", "REACTION"] });
 
 //prefix, used to write specific commands
-const PREFIX = "-";
+const PREFIX = process.env.PREFIX;
 
+//const that requires mongoose/mongoDB
+const mongoose = require('mongoose');
+
+//const that requires file selection for looking into the bot folder
 const fs = require('fs');
 
 //makes commands a collection within discord
@@ -36,7 +40,6 @@ client.once('ready', () => {
     console.log("Teabot is online\nVersion", VERSION);
     client.user.setActivity("out for a tea party", {
         type: "WATCHING",
-        url: "https://github.com/Siverty/TeaBot"
     })
 });
 
@@ -57,15 +60,27 @@ client.on('message', message => {
 
     if (command === 'help') {
         client.commands.get('help').execute(message, args, Discord);
-    } else if (command == 'serverelection') {
+    } else if (command === 't', 'tarkov') {
+        client.commands.get('tarkov').execute(message, args);
+    } else if (command === 'serverelection') {
         client.commands.get('serverelection').execute(message, args, Discord, client);
-    } else if (command == 'clear') {
+    } else if (command === 'clear', 'c') {
         client.commands.get('clear').execute(message, args);
-    } else if (command == 'mute') {
+    } else if (command === 'mute', 'm') {
         client.commands.get('mute').execute(message, args);
-    } else if (command == 'mute') {
-        client.commands.get('mute').execute(message, args);
-    } else if (command == 'unmute') {
-        client.commands.get('unmute').execute(message, args);
+    } else if (command === 'unmute') {
+        client.commands.get('unmute', 'um').execute(message, args);
     }
 });
+
+// mongoose.connect(process.env.MONGODB_SRV, {
+//     useNewUrlParser: true,
+//     useUnifiedTopology: true,
+//     UserFindAndModigy: false
+// })
+// .then(()=>{
+//     console.log('<connected to the database>');
+// })
+// .catch((err) => {
+//     console.log(err);
+// });
