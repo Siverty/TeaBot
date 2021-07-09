@@ -58,7 +58,7 @@ client.on('message', message => {
     const args = message.content.slice(PREFIX.length).split(/ +/);
     const command = args.shift().toLowerCase();
 
-    if (command === 'help') {
+    if (command === 'help', 'h') {
         client.commands.get('help').execute(message, args, Discord);
     } else if (command === 't', 'tarkov') {
         client.commands.get('tarkov').execute(message, args, Discord);
@@ -68,8 +68,8 @@ client.on('message', message => {
         client.commands.get('clear').execute(message, args);
     } else if (command === 'mute', 'm') {
         client.commands.get('mute').execute(message, args);
-    } else if (command === 'unmute') {
-        client.commands.get('unmute', 'um').execute(message, args);
+    } else if (command === 'unmute', 'um') {
+        client.commands.get('unmute').execute(message, args);
     }
 });
 
