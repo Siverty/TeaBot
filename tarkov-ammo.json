@@ -1158,5 +1158,29 @@
         "Penetration": "18",
         "Armor_Damage": "0.39",
         "Fragmentation": "0.5"
+    },
+    {
+        "Name": "MAI AP",
+        "Caliber": "7.62x39mm",
+        "Damage": "46",
+        "Penetration": "58",
+        "Armor_Damage": "0.76",
+        "Fragmentation": "0.05"
+    },
+    {
+        "Name": "SSA AP",
+        "Caliber": "5.56x45mm",
+        "Damage": "36",
+        "Penetration": "56",
+        "Armor_Damage": "0.64",
+        "Fragmentation": "0.2"
+    },
+    {
+        "Name": "Mk 318 Mod 0 (SOST)",
+        "Caliber": "5.56x45mm",
+        "Damage": "65",
+        "Penetration": "21",
+        "Armor_Damage": "0.35",
+        "Fragmentation": "0.15"
     }
 ]
