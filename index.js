@@ -60,15 +60,15 @@ client.on('message', message => {
 
     if (command === 'help') {
         client.commands.get('help').execute(message, args, Discord);
-    } else if (command === 't', 'tarkov') {
+    } else if (command == 't', 'tarkov') {
         client.commands.get('tarkov').execute(message, args, Discord);
-    } else if (command === 'serverelection') {
+    } else if (command == 'serverelection') {
         client.commands.get('serverelection').execute(message, args, Discord, client);
-    } else if (command === 'clear', 'c') {
+    } else if (command == 'clear', 'c') {
         client.commands.get('clear').execute(message, args);
-    } else if (command === 'mute', 'm') {
+    } else if (command == 'mute', 'm') {
         client.commands.get('mute').execute(message, args);
-    } else if (command === 'unmute') {
+    } else if (command == 'unmute') {
         client.commands.get('unmute', 'um').execute(message, args);
     }
 });
