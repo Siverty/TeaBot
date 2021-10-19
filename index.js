@@ -59,17 +59,17 @@ client.on('message', message => {
     const command = args.shift().toLowerCase();
 
     //it is not clear if the abbreviations work in practice, unstable
-    if (command === 'help', 'h') {
+    if (command === 'help') {
         client.commands.get('help').execute(message, args, Discord);
-    } else if (command == 't', 'tarkov') {
+    } else if (command == 'tarkov') {
         client.commands.get('tarkov').execute(message, args, Discord);
     } else if (command == 'serverelection') {
         client.commands.get('serverelection').execute(message, args, Discord, client);
-    } else if (command == 'clear', 'c') {
+    } else if (command == 'clear') {
         client.commands.get('clear').execute(message, args);
-    } else if (command == 'mute', 'm') {
+    } else if (command == 'mute') {
         client.commands.get('mute').execute(message, args);
-    } else if (command == 'unmute', 'um') {
+    } else if (command == 'unmute') {
         client.commands.get('unmute').execute(message, args);
     }
 });
