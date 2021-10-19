@@ -2,6 +2,8 @@ module.exports = {
     name: 'serverelection',
     description: "specific hardcoded electioncommand for the server!",
     async execute(message, args, Discord, client) {
+        //this was a trial held with a discord server wanting a new name
+        //it should not be taken seriously
         const channel = '845059321830309898';
         const ServerElectorRole = message.guild.roles.cache.find(role => role.name === "Server Elector");
         const GamerHoleTeamRole = message.guild.roles.cache.find(role => role.name === "GamerHole Team");
