@@ -6,7 +6,7 @@ module.exports = {
 
         fs.readFile('./tarkov-ammo.json', 'utf8', (err, data) => {
 
-            //
+            //placing the variants of name and caliber into from the .json into searchable tables
             var ammo = JSON.parse(data);
             var ammoList = ammo.filter(element => element["Name"].toLowerCase().includes(args[0].toLowerCase()));
             if (ammoList.length == 0){
@@ -14,7 +14,7 @@ module.exports = {
             }
             
             
-            //
+            //searches the .json for the specified words and makes them into elements
             ammoFetch = []
             ammoList.forEach(element => {
                 ammoFetch.push({ name: element['Name'], value: 
@@ -25,7 +25,7 @@ module.exports = {
                 Fragmentation: ${element['Fragmentation']}` })
             });
 
-            //
+            //makes a pretty embed to easily show the user the properties of the ammo
             var AMMOEMBED = new Discord.MessageEmbed()
                 .setColor('#680118')
                 .setTitle('Ammo')
@@ -33,7 +33,7 @@ module.exports = {
                 .setDescription('this is an ammo embed for general help using this bot')
             ammoFetch.forEach(element => { AMMOEMBED.addFields(element) })
 
-            //
+            //sends the message into the channel the requested ammo was posted
             message.channel.send(AMMOEMBED)
         });
     }
