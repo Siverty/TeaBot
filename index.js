@@ -1,4 +1,4 @@
-//used for corrospondance between this and the .env file
+//required for reading the .env file
 require('dotenv').config();
 
 //easy input for the tokens put in the .env file
@@ -9,16 +9,16 @@ const TENORKEY = process.env.TENORKEY;
 const Discord = require('discord.js');
 const client = new Discord.Client({ partials: ["MESSAGE", "CHANNEL", "REACTION"] });
 
-//prefix, used to write specific commands
+//prefix that will be used to call upon the bot in a discord text channel
 const PREFIX = process.env.PREFIX;
 
-//const that requires mongoose/mongoDB
+//const that requires mongoose/mongoDB (currently not in use)
 const mongoose = require('mongoose');
 
 //const that requires file selection for looking into the bot folder
 const fs = require('fs');
 
-//makes commands a collection within discord
+//makes commands a collection, needed for the bot to function
 client.commands = new Discord.Collection();
 
 //determines where to look for the commands for use in the command handler
@@ -29,7 +29,7 @@ for (const file of commandFiles) {
     client.commands.set(command.name, command);
 }
 
-//handy placeholder for the bot version
+//handy placeholder for the bot version, only updated when a major improveement or update is added
 const VERSION = ('0.0.8');
 
 //login for client, defined in the .env file
@@ -43,13 +43,13 @@ client.once('ready', () => {
     })
 });
 
-//welcome role
+//welcome role, this is hardcoded into the index.js file because no better way has yet been found
 client.on('guildMemberAdd', guildMember => {
     let welcomeRole = guildMember.guild.roles.cache.find(role => role.name === 'Welcome');
 
     guildMember.roles.add(welcomeRole);
     guildMember.guild.channels.cache.get('844677904246898689').send(`Welcome <@${guildMember.user.id}> to our server! Make sure to check out the rules channel!`)
-});
+}); //(NOTE: update to work with reactionroles)
 
 //message handler
 client.on('message', message => {
@@ -58,6 +58,7 @@ client.on('message', message => {
     const args = message.content.slice(PREFIX.length).split(/ +/);
     const command = args.shift().toLowerCase();
 
+    //it is not clear if the abbreviations work in practice, unstable
     if (command === 'help', 'h') {
         client.commands.get('help').execute(message, args, Discord);
     } else if (command == 't', 'tarkov') {
@@ -72,6 +73,8 @@ client.on('message', message => {
         client.commands.get('unmute').execute(message, args);
     }
 });
+
+//portion of MongoDB code, to be used in the future if needed
 
 // mongoose.connect(process.env.MONGODB_SRV, {
 //     useNewUrlParser: true,
