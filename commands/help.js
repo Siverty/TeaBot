@@ -23,3 +23,4 @@ module.exports = {
         message.channel.send(NEWEMBED)
     }
 }
+//this file is to be expanded upon when new features are added
