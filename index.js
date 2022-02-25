@@ -61,8 +61,8 @@ client.on('message', message => {
     //it is not clear if the abbreviations work in practice, unstable
     if (command === 'help') {
         client.commands.get('help').execute(message, args, Discord);
-    } else if (command == 'tarkov') {
-        client.commands.get('tarkov').execute(message, args, Discord);
+    // } else if (command == 'tarkov') {
+    //     client.commands.get('tarkov').execute(message, args, Discord);
     } else if (command == 'serverelection') {
         client.commands.get('serverelection').execute(message, args, Discord, client);
     } else if (command == 'clear') {
