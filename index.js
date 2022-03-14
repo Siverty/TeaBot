@@ -12,7 +12,7 @@ const client = new Discord.Client({ partials: ["MESSAGE", "CHANNEL", "REACTION"]
 //prefix that will be used to call upon the bot in a discord text channel
 const PREFIX = process.env.PREFIX;
 
-//const that requires mongoose/mongoDB (currently not in use)
+//const that requires mongoose/mongoDB (currently not in use)   
 const mongoose = require('mongoose');
 
 //const that requires file selection for looking into the bot folder
@@ -61,8 +61,8 @@ client.on('message', message => {
     //it is not clear if the abbreviations work in practice, unstable
     if (command === 'help') {
         client.commands.get('help').execute(message, args, Discord);
-    // } else if (command == 'tarkov') {
-    //     client.commands.get('tarkov').execute(message, args, Discord);
+        // } else if (command == 'tarkov') {
+        //     client.commands.get('tarkov').execute(message, args, Discord);
     } else if (command == 'serverelection') {
         client.commands.get('serverelection').execute(message, args, Discord, client);
     } else if (command == 'clear') {
