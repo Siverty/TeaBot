@@ -4,7 +4,7 @@ An open source discord bot.
 TeaBot is actively being developed to give people with an interest in coding a discord bot insight how to make one.
 This bot will be filled with usefull features like a music bot, reactionroles, clear command, role restrictions on commands and many more!
 
-The bot will never be "finished" because discord an NODE.JS will always add new features to expand upon.
+The bot will never be "finished" because DISCORD.js and NODE.JS will always add new features to expand upon.
 
 
 Feel free to contact the devs to help with this project as any help is welcome!
