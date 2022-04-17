@@ -6,8 +6,11 @@ const TOKEN = process.env.TOKEN;
 const TENORKEY = process.env.TENORKEY;
 
 //don't change this, includes basic requires for the bot to operate
-const Discord = require('discord.js');
-const client = new Discord.Client({ partials: ["MESSAGE", "CHANNEL", "REACTION"] });
+const {Discord, Client, Intents, Collection} = require('discord.js');
+
+const myIntents = new Intents(Intents.ALL);
+
+const client = new Client({ intents: myIntents });
 
 //prefix that will be used to call upon the bot in a discord text channel
 const PREFIX = process.env.PREFIX;
@@ -19,7 +22,7 @@ const mongoose = require('mongoose');
 const fs = require('fs');
 
 //makes commands a collection, needed for the bot to function
-client.commands = new Discord.Collection();
+client.commands = new Collection() 
 
 //determines where to look for the commands for use in the command handler
 const commandFiles = fs.readdirSync('./commands/').filter(file => file.endsWith('.js'));
@@ -30,7 +33,7 @@ for (const file of commandFiles) {
 }
 
 //handy placeholder for the bot version, only updated when a major improveement or update is added
-const VERSION = ('0.0.8');
+const VERSION = ('0.0.8');                                  //yet to be pushed to docker
 
 //login for client, defined in the .env file
 client.login(TOKEN);
