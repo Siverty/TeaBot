@@ -59,16 +59,18 @@ client.on('message', message => {
     const command = args.shift().toLowerCase();
 
     //it is not clear if the abbreviations work in practice, unstable
-    if (command === 'help') {
-        client.commands.get('help').execute(message, args, Discord);
-        // } else if (command == 'tarkov') {
-        //     client.commands.get('tarkov').execute(message, args, Discord);
-    } else if (command == 'serverelection') {
-        client.commands.get('serverelection').execute(message, args, Discord, client);
-    } else if (command == 'clear') {
+    if (command == 'clear') {
         client.commands.get('clear').execute(message, args);
+    } else if (command === 'help') {
+        client.commands.get('help').execute(message, args, Discord);
+    } else if (command == 'music') {
+        client.commands.get('music').execute(message, args, Discord);
     } else if (command == 'mute') {
         client.commands.get('mute').execute(message, args);
+    } else if (command == 'serverelection') {
+        client.commands.get('serverelection').execute(message, args, Discord, client);
+    // } else if (command == 'tarkov') {                                    //tarkov.js is currently not in use
+        //client.commands.get('tarkov').execute(message, args, Discord);
     } else if (command == 'unmute') {
         client.commands.get('unmute').execute(message, args);
     }
