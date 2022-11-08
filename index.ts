@@ -1,18 +1,35 @@
 //required for reading the .env file
-require('dotenv').config();
+import dotenv from 'dotenv';
+dotenv.config();
 
 //easy input for the tokens put in the .env file
 const TOKEN = process.env.TOKEN;
 const TENORKEY = process.env.TENORKEY;
 
 //don't change this, includes basic requires for the bot to operate
-const {Discord, Client, Intents, Collection} = require('discord.js');
+import DiscordJS, { Intents } from 'discord.js';
 
-const myIntents = new Intents(Intents.ALL);
+const client = new DiscordJS.Client({
+    intents: [
+        Intents.FLAGS.GUILDS,
+        Intents.FLAGS.GUILD_MESSAGES,
+    ]
+})
 
-const client = new Client({ intents: myIntents });
+client.on('ready', () => {
+    console.log('Bot is ready!');
+});
+
+client.login(TOKEN);
+
+// const {Discord, Client, Intents, Collection} = require('discord.js');
+/*this has been commented out because of the transition to typescript.*/
+// const myIntents = new Intents(Intents.ALL);
+
+// const client = new Client({ intents: myIntents });
 
 //prefix that will be used to call upon the bot in a discord text channel
+/* 
 const PREFIX = process.env.PREFIX;
 
 //const that requires mongoose/mongoDB (currently not in use)   
@@ -92,3 +109,4 @@ client.on('message', message => {
 // .catch((err) => {
 //     console.log(err);
 // });
+*/
