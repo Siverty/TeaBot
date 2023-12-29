@@ -8,3 +8,6 @@ Dockerfile
 
 # Ignore node_modules directory
 node_modules/
+
+# Ignore the current config.json because of sensitive data
+config.json
