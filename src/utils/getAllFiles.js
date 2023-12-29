@@ -20,6 +20,5 @@ module.exports = (directory, foldersOnly = false) => {
     }
   }
 
-    return fileNames;
-    
+  return fileNames;
 };
