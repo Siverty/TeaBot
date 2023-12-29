@@ -3,6 +3,14 @@ const areCommandsDifferent = require("../../utils/areCommandsDifferent");
 const getApplicationCommands = require("../../utils/getApplicationCommands");
 const getLocalCommands = require("../../utils/getLocalCommands");
 
+/*
+// This is for deleting commands globally, only enable for a partial or full wipe.
+const { REST, Routes } = require('discord.js');
+const { clientID, testserver, token } = require('../../../config.json');
+
+const rest = new REST().setToken(token);
+*/
+
 module.exports = async (client) => {
   try {
     const localCommands = getLocalCommands();
@@ -55,6 +63,21 @@ module.exports = async (client) => {
   } catch (error) {
     console.log(`⚠️ There was an error: ${error}`);
   }
+
+
+/*
+// This is for deleting commands globally, only enable for a partial or full wipe.
+
+// for guild-based commands
+rest.put(Routes.applicationGuildCommands(clientID, testserver), { body: [] })
+	.then(() => console.log('Successfully deleted all guild commands.'))
+	.catch(console.error);
+
+// for global commands
+rest.put(Routes.applicationCommands(clientID), { body: [] })
+	.then(() => console.log('Successfully deleted all application commands.'))
+	.catch(console.error);
+*/
 
   // console.log(localCommands);
 };
